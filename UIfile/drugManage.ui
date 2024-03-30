@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>药品管理</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(:/back.jpg)</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>药品管理</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <column>
+      <property name="text">
+       <string>药品标号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>药品名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>药品进单价</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>药品处方单价</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>药品库存</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>建议</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="addButton">
+     <property name="text">
+      <string>新增药品</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="setButton">
+     <property name="text">
+      <string>设定进价与处方价</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="deleteButton">
+     <property name="text">
+      <string>删除药品</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="increaseButton">
+     <property name="text">
+      <string>增加库存</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="updateButton">
+     <property name="text">
+      <string>更新列表</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="returnButton">
+     <property name="text">
+      <string>返回主界面</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="background_image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

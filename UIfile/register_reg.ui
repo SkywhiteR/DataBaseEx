@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>252</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>挂号</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/back.jpg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="LineEdit_5"/>
+   </item>
+   <item row="7" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="Label_6">
+     <property name="text">
+      <string>医生选择</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="ComboBox"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="LineEdit_4"/>
+   </item>
+   <item row="3" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="Label">
+     <property name="text">
+      <string>性别</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="1">
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="4" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="Label_3">
+     <property name="text">
+      <string>联系电话</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="Label_2">
+     <property name="text">
+      <string>年龄</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QComboBox" name="ComboBox_2"/>
+   </item>
+   <item row="5" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="Label_4">
+     <property name="text">
+      <string>住址</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="Label_5">
+     <property name="text">
+      <string>候诊科室</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="comboBox"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="LineEdit_3"/>
+   </item>
+   <item row="8" column="0" colspan="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>提交</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>挂号系统</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="background_image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
